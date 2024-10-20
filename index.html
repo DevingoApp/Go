@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>زر الانتقال إلى الإعدادات</title>
+    <style>
+        .settings-button {
+            padding: 10px 20px;
+            background-color: #4CAF50; /* لون الخلفية */
+            color: white; /* لون النص */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .settings-button:hover {
+            background-color: #45a049; /* لون الخلفية عند التمرير */
+        }
+    </style>
+</head>
+<body>
+
+<button class="settings-button" onclick="goToSettings()">الانتقال إلى الإعدادات</button>
+
+<script>
+    function goToSettings() {
+        // هنا يمكنك وضع الرابط لفتح صفحة الإعدادات
+        // على سبيل المثال:
+        window.location.href = "settings.html"; // استبدل "settings.html" بصفحة الإعدادات الخاصة بك
+    }
+</script>
+
+</body>
+</html>
